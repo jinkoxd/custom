@@ -1,0 +1,7 @@
+  hello_word.HellForm:
+  path: '/hello_word/example_user_register'
+  defaults:
+    _form: 'Drupal\hello_word\Form\FormTesting'
+    _title: 'Simple custom form example'
+  requirements:
+    _permission: 'access content'
